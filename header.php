@@ -39,10 +39,10 @@
         	<ul id="tiny">
 		      <li><a href="index.php">Accueil</a></li>
 		      <li><a href="bienfaits.php">le shiatsu</a>
-			      <ul>
+			  <!--    <ul>
 			  <li><a href="post.html">Bienfaits</a></li>
 			  <li><a href="post.html">Deontologies</a></li>
-		      </ul>
+		      </ul>-->
 		      </li>
 		      <li><a href="seances.html">Seances</a>	</li>
 		      <li><a href="tarif.html">Tarif</a></li>

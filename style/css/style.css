@@ -1677,8 +1677,8 @@ p.form-submit {
 	margin-left: 1.5em;
 }
 .widget ul li {
-	background-image: url(sty
-	le/images/light-bullet.png);
+	background-image: url('sty
+	le/images/light-bullet.png');
 }
 .widget a {
 	text-decoration: none;
