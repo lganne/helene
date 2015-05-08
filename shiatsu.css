@@ -1,0 +1,523 @@
+   <!-- CSS
+    ================================================== -->
+    <style type="text/css">/* Icon Font */
+@font-face {
+    font-family: 'themes-Regular';
+    src: url('http://assets.virbcdn.com/_assets/_fonts/_icons/themes-regular.eot');
+    src: url('http://assets.virbcdn.com/_assets/_fonts/_icons/themes-regular.eot?#iefix') format('embedded-opentype'),
+         url('http://assets.virbcdn.com/_assets/_fonts/_icons/themes-regular.woff') format('woff'),
+         url('http://assets.virbcdn.com/_assets/_fonts/_icons/themes-regular.ttf') format('truetype'),
+         url('http://assets.virbcdn.com/_assets/_fonts/_icons/themes-regular.svg#global-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Slab';
+    src: url('http://assets.virbcdn.com/_assets/_fonts/museo_slab_500-webfont.eot');
+    src: url('http://assets.virbcdn.com/_assets/_fonts/museo_slab_500-webfont.eot?#iefix') format('embedded-opentype'),
+    url('http://assets.virbcdn.com/_assets/_fonts/museo_slab_500-webfont.woff') format('woff'),
+    url('http://assets.virbcdn.com/_assets/_fonts/museo_slab_500-webfont.ttf') format('truetype'),
+    url('http://assets.virbcdn.com/_assets/_fonts/museo_slab_500-webfont.svg#webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    
+
+
+
+}
+
+
+/***** Body Background Color *****/
+
+body,
+#main-content .sharing .share-buttons ul,
+#datepicker .ui-datepicker-calendar, 
+#ui-datepicker-div .ui-datepicker-calendar {
+    background-color: #ffffff;
+}
+
+#main-content .audio .audio-player ol li .download,
+#main-content .audio .bandcamp-link,
+.opentable form#OT_form .OT_wrapper ul.OT_list li.OT_submit a.OT_Find_a_Table,
+table.ui-datepicker-calendar td a.ui-state-default.ui-state-active,
+table.ui-datepicker-calendar td a.ui-state-active.ui-state-hover,
+.opentable li.OT_navListItem a.OT_navLink:hover, 
+.opentable li.OT_navListItem a.OT_navLink.selected,
+.opentable li.OT_navListItem a.OT_navLink.selected:hover,
+#contact-form .captcha #captcha-list li a:hover,
+#contact-form .captcha #captcha-list li a.selected,
+#contact-form fieldset ul.parsley-errors-list li {
+    color: #ffffff;
+}
+
+/* Site Title Color */
+
+#site-header .logo h1 a,
+#site-header .logo h1 a:hover {
+    color: #000000;
+}
+
+
+/* Subtitle Color */
+
+#site-header .logo h2 {
+    color: #0b0b0b;
+}
+
+
+/* Nav Color */
+
+#site-header nav#main-nav #menu li a,
+#site-header nav#main-nav ul li.section span,
+#site-header nav#main-nav .toggle a,
+a.subscribe {
+    color: #0b0b0b;
+}
+
+
+/* Nav Rollover Color */
+
+#site-header nav#main-nav #menu li a:hover,
+#site-header nav#main-nav #menu li.current a,
+#site-header nav#main-nav ul li.section:hover span,
+#site-header nav#main-nav ul li.section:after {
+    color: #dc8b57;
+}
+
+#site-header nav#main-nav #menu > li.current.page_title:after,
+#site-header nav#main-nav #menu li.page:hover:after {
+    background-color: #dc8b57;
+}
+
+
+/* Primary Color */
+
+body,
+table.ui-datepicker-calendar td a,
+table.ui-datepicker-calendar td a:hover,
+table.ui-datepicker-calendar td a.ui-state-highlight,
+table.ui-datepicker-calendar td a.ui-state-default,
+table.ui-datepicker-calendar td a.ui-state-hover,
+table.ui-datepicker-calendar td.ui-state-disabled span.ui-state-default,
+table.ui-datepicker-calendar .ui-datepicker-calendar thead tr th,
+ul.OT_list li:after,
+#datepicker .ui-widget-header,
+#ui-datepicker-div .ui-widget-header,
+ul.OT_list li input,
+.ui-datepicker-calendar thead tr th span,
+#contact-form fieldset ul li input,
+#contact-form fieldset ul li textarea,
+#contact-form fieldset .captcha #captcha-list li a {
+    color: #0b0b0b;
+}   
+.widgets .widget.audio ol li .controls .play-pause,
+table.ui-datepicker-calendar .ui-state-disabled {
+	background-color: #0b0b0b;
+}
+
+
+/* Secondary Color */
+
+#main-content .index .normal li a .titles h3,
+#main-content .index .large li a .titles h3,
+#main-content .index .normal li:hover a .titles h3,
+#main-content .index .large li:hover a .titles h3,
+#store-listing li .price,
+#store-listing li:hover .price,
+#main-content #store-detail .back-to-listing,
+#main-content #store-cart .total .label,
+#main-content #store-cart .cart-actions .continue-shopping,
+#main-content #store-detail .product-specifics .price,
+#main-content .audio .audio-player ol li .controls .play-pause,
+.widgets .widget.audio ol li .controls .previous,
+.widgets .widget.audio ol li .controls .next,
+#main-content .audio .audio-player ol li .info .time,
+#main-content .vertical-gallery .large-gallery li .details p,
+#main-content .horizontal-gallery .large-gallery li .details p,
+#main-content .slideshow-gallery .large-gallery li .details p,
+#main-content .slideshow-thumbnails-gallery .large-gallery li .details p,
+#main-content .slideshow-thumbnails-gallery.show .back-to-slideshow,
+#main-content .masonry-gallery .large-gallery li .details p,
+#main-content .masonry-gallery.show .back-to-slideshow,
+#main-content .events ul li .date .month,
+#main-content .events ul li .date .year,
+#main-content #blog > ul > li aside,
+#main-content #blog > ul > li aside a,
+#main-content #blog > ul > li footer,
+#main-content #blog > ul > li footer a,
+.widgets .widget.twitter ul li .date a,
+.widgets .widget.blog ul li .date,
+.widgets .widget.rss ul li .date,
+#main-content .events ul li .event-info .info span,
+#main-content .content-editor blockquote p,
+#main-content .menu ul.menu-list li p.price,
+#main-content .menu ul.menu-list li h2.section-title,
+#main-content .grid-gallery li .details p, 
+#main-content .grid-gallery li .details a,
+#contact-form fieldset .parsley-error-list li {
+    color: #0b0b0b;
+}
+#main-content #blog > ul > li footer .tags-categories ul {
+	border-color: #0b0b0b;
+}
+
+#main-content .horizontal-gallery #handle {
+    background: #0b0b0b;
+}
+
+
+/* Muted Colors */
+#main-content .audio .audio-player ol li .controls .play-pause,
+.widgets .widget.audio ol li .controls .previous,
+.widgets .widget.audio ol li .controls .next,
+#blog .category-dropdown,
+#main-content .vertical-gallery .large-gallery li .details,
+#main-content .horizontal-gallery .large-gallery li .details,
+#main-content .slideshow-gallery .large-gallery li .details,
+#main-content .slideshow-thumbnails-gallery .large-gallery li .details,
+#main-content .masonry-gallery .large-gallery li .details,
+#main-content .horizontal-gallery #slider .slider-track-x,
+#main-content .grid-gallery .large-gallery li .details {
+	background-color: #ffffff;
+}
+
+
+/* Accent Colors */
+#main-content .audio .audio-player ol li .download,
+#main-content .audio .bandcamp-link,
+#main-content .audio .audio-player ol li .length .load,
+#main-content .audio .audio-player ol li .length .progress,
+.widgets .widget.audio ol li .length .load,
+.widgets .widget.audio ol li .length .progress,
+.video .vjs-control-bar .vjs-volume-level,
+.video .vjs-control-bar .vjs-play-progress {
+	background-color: #ffffff;
+}
+
+/* Title Colors */
+#page-title,
+#blog h1#page-title a,
+.widgets article.widget h2,
+#main-content #subheader,
+#blog article header h1 a,
+.index .titles h2,
+.index .titles h3,
+.events ul li h2,
+.events ul li .date,
+.details h2,
+#main-content .content-editor h1,
+#main-content .content-editor h2,
+#main-content .content-editor h3,
+#main-content .content-editor h4,
+#main-content #store-detail .product-specifics h1,
+#main-content #store-detail .product-specifics h2,
+#main-content #store-cart .items-in-cart li .price,
+#main-content #store-cart .total .price,
+#main-content .contact .contact-item .type,
+#main-content .contact ul.contact-info li.contact-item.name,
+#main-content .menu ul.menu-list h2.item-title {
+    color: #000000;
+}
+
+
+/* Container Colors */
+
+#site-header nav#main-nav #menu li.section ul,
+#site-header nav#main-nav ul li.section:after,
+.index .square li,
+.index .normal li,
+.widget,
+#main-content #store-detail .product-specifics .options,
+.ui-datepicker .ui-datepicker-header,
+.opentable form#OT_form .OT_wrapper ul.OT_list li input,
+#ui-datepicker-div .ui-datepicker-header:before,
+#ui-datepicker-div .ui-datepicker-calendar:before,
+.contact .captcha #captcha-list li a {
+    background-color: #ffffff;
+}
+.widgets .widget.audio ol li .controls .play-pause {
+	color: #ffffff;
+}
+
+
+/* Border Colors */
+
+.index .square li,
+.index .normal li,
+#main-content #blog > ul > li aside,
+#main-content .audio .audio-player ol li,
+.widgets .widget.rss ul li,
+.widgets .widget.blog ul li,
+.widgets .widget.lastfm ul li,
+.widget, 
+#site-header nav#main-nav #menu li.section ul,
+#main-content .events ul li,
+#main-content #store-cart .items-in-cart li,
+#main-content .listing ul.listing-list li,
+#main-content .menu ul.menu-list li .menu-item-price,
+#main-content .menu section.content-editor,
+#main-content .menu ul.menu-list li ul.sub-items,
+#main-content .menu ul.menu-list li.has-sub-items,
+#site-header nav#main-nav .toggle,
+#site-header nav#main-nav ul .cart-link,
+#site-header nav#main-nav ul .cart-link:hover,
+#contact-form fieldset ul li input, 
+#contact-form fieldset ul li textarea,
+#main-content .contact .form-container #result-message {
+	border-color: transparent;
+    border-color: #dc8b57;
+}
+#main-content .vertical-gallery .large-gallery li .details,
+#main-content .horizontal-gallery .large-gallery li .details,
+#main-content .slideshow-gallery .large-gallery li .details,
+#main-content .slideshow-thumbnails-gallery .large-gallery li .details,
+#main-content .masonry-gallery .large-gallery li .details,
+#main-content .grid-gallery .large-gallery li .details,
+#main-content #store-detail .product-specifics .purchase-options,
+#main-content .events ul li .event-info .info span,
+#main-content #store-listing .pagination,
+#main-content #store-cart #cart-empty-message,
+form input[type="password"] {
+	border-color: transparent;
+    border-color: #dc8b57;
+}
+#ui-datepicker-div.ui-datepicker,
+table.ui-datepicker-calendar thead tr,
+table.ui-datepicker-calendar tr,
+table.ui-datepicker-calendar tr td,
+.opentable form#OT_form .OT_wrapper ul.OT_list li input,
+.opentable form#OT_form .OT_wrapper ul.OT_list li .OT_navList,
+.ui-datepicker .ui-datepicker-header,
+#ui-datepicker-div .ui-datepicker-header:before,
+.ui-datepicker-calendar {
+    border-color: transparent;
+    border-color: #dc8b57;
+}
+
+#site-header nav#main-nav #menu {
+    border-color: transparent;
+    border-color: #dc8b57;
+}
+
+/* Header / Footer Border */
+#site-header .logo,
+#site-footer {
+    border-color: transparent;
+    border-color: #000000;
+}
+#site-header nav#main-nav .toggle {
+    border-top-color: transparent;
+    border-top-color: #000000;
+}
+
+/* Resolution-based Colors */
+@media (max-width: 699px) {
+    #site-header {
+        border-color: transparent;
+        border-color: #000000;
+    }
+    
+    #site-header nav#main-nav #menu > li {
+        border-color: transparent;
+        border-color: #dc8b57;
+    }
+}
+
+/* Link Color */
+
+a,
+#main-content .sharing .share-buttons .share-label,
+.ui-datepicker .ui-datepicker-header .ui-icon,
+table.ui-datepicker-calendar a.ui-state-default:hover,
+#datepicker .ui-datepicker-header .ui-datepicker-next.ui-datepicker-next-hover span,
+#datepicker .ui-datepicker-header .ui-datepicker-prev.ui-datepicker-prev-hover span,
+#ui-datepicker-div .ui-datepicker-header .ui-datepicker-next.ui-datepicker-next-hover span,
+#ui-datepicker-div .ui-datepicker-header .ui-datepicker-prev.ui-datepicker-prev-hover span {
+    color: #0b0b0b;
+}
+
+.opentable form#OT_form .OT_wrapper ul.OT_list li.OT_submit a.OT_Find_a_Table,
+#datepicker .ui-datepicker table.ui-datepicker-calendar td a.ui-state-active,
+#ui-datepicker-div table.ui-datepicker-calendar td a.ui-state-active,
+table.ui-datepicker-calendar td a:hover.ui-state-active,
+.opentable a.OT_navLink:hover, 
+.opentable a.OT_navLink.selected,
+.contact .captcha #captcha-list li a:hover,
+.contact .captcha #captcha-list li a.selected {
+    background-color: #0b0b0b;
+}
+
+table.ui-datepicker-calendar td a:hover,
+table.ui-datepicker-calendar td a.ui-state-active {
+    outline-color: #0b0b0b;
+}
+
+/* Link Rollover Color */
+
+a:hover,
+.event-info a.see-details,
+#main-content .index .normal li:hover a .titles h2,
+#main-content .index .large li:hover a .titles h2,
+#main-content #store-cart .items-in-cart li .delete:before,
+#main-content #store-cart .items-in-cart li:hover .product-title a,
+#main-content ul.categories li.selected a,
+#main-content .sharing .share-buttons .share-label:hover,
+#main-content .sharing.open .share-buttons .share-label,
+#datepicker .ui-datepicker-header .ui-datepicker-next.ui-datepicker-next-hover span,
+#datepicker .ui-datepicker-header .ui-datepicker-prev.ui-datepicker-prev-hover span,
+#ui-datepicker-div .ui-datepicker-header .ui-datepicker-next.ui-datepicker-next-hover span,
+#ui-datepicker-div .ui-datepicker-header .ui-datepicker-prev.ui-datepicker-prev-hover span,
+#main-content .grid-gallery li .details a:hover {
+    color: #dc8b57;
+}
+.index .square li:hover,
+.index .normal li:hover,
+#main-content #store-cart .items-in-cart li:hover,
+#main-content .sharing .share-buttons ul,
+#contact-form fieldset ul.parsley-errors-list li:before {
+    border-color: #dc8b57;
+}
+#main-content #store-detail .product-specifics .add-to-cart,
+form input[type="submit"],
+#main-content #store-cart .cart-actions .checkout,
+.widgets .widget.audio ol li .controls a.play-pause:hover,
+.opentable form#OT_form .OT_wrapper ul.OT_list li.OT_submit a.OT_Find_a_Table:hover,
+#contact-form fieldset ul.parsley-errors-list li {
+	background-color: #dc8b57;
+}
+
+#main-content #store-cart .cart-actions .checkout:after,
+#main-content #store-detail .product-specifics .cart-add:after {
+    color: #dc8b57;
+}
+
+
+/* Body Background Color*/
+body {
+	background-color:#ffffff;
+}
+#main-content #store-detail .product-specifics .add-to-cart,
+form input[type="submit"],
+#main-content #store-cart .cart-actions .checkout  {
+	color: #ffffff;
+}
+
+#main-content #store-cart .cart-actions .checkout:after,
+#main-content #store-detail .product-specifics .cart-add:after {
+    background-color:#ffffff;
+}
+
+
+
+
+/* Fonts */
+
+/***** site name font family *****/
+.logo h1 {
+    font-family: 'Museo Slab', Georgia, "Times New Roman", serif;
+}
+
+
+/***** subtitle font family *****/
+.logo h2 {
+    font-family: 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+
+/***** navigation font family *****/
+nav#main-nav,
+.cart-link {
+    font-family: 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+
+/***** titles font family *****/
+#page-title,
+#blog h1#page-title a,
+.widgets article.widget h2,
+#main-content #subheader,
+#blog article header h1 a,
+.index .titles h2,
+.index .titles h3,
+.events ul li h2,
+.events ul li .date,
+#store-listing li .price,
+.details h2,
+#main-content #store-cart .items-in-cart li .product-title a,
+#main-content .content-editor h1,
+#main-content .content-editor h2,
+#main-content .content-editor h3,
+#main-content .content-editor h4,
+#main-content #store-detail .product-specifics h1,
+#main-content #store-detail .product-specifics .purchase-options h2,
+#main-content .contact ul.contact-info li.contact-item.name,
+#main-content .menu ul.menu-list h2.item-title,
+.menu ul.menu-list li p.price,
+.contact ul.contact-info .contact-item .type {
+    font-family: 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+
+/***** body font family *****/
+body,
+#main-content .index li a .titles h3,
+#store-listing li .price,
+#main-content #store-detail .product-specifics .add-to-cart,
+form input[type="submit"], 
+#datepicker .ui-datepicker-header .ui-datepicker-title span.ui-datepicker-month,
+#datepicker .ui-datepicker-header .ui-datepicker-title span.ui-datepicker-year,
+#ui-datepicker-div .ui-datepicker-header .ui-datepicker-title span.ui-datepicker-month,
+#ui-datepicker-div .ui-datepicker-header .ui-datepicker-title span.ui-datepicker-year,
+.opentable form#OT_form .OT_wrapper ul.OT_list li.OT_submit a.OT_Find_a_Table,
+#contact-form fieldset ul li input,
+#contact-form fieldset ul li textarea,
+#main-content .contact .form-container #result-message h1 {
+    font-family: 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+
+/**** global font size *****/
+body {
+    font-size: 100%;
+}
+
+
+/**** site title font size *****/
+.logo {
+    font-size: 110%;
+}
+
+
+/**** navigation font size *****/
+nav#main-nav,
+.cart-link {
+    font-size: 90%;
+}
+
+
+/**** page titles font size *****/
+#page-title,
+#blog h1#page-title {
+    font-size: 180%;
+}
+
+
+/**** content font size *****/
+#main-content .content-editor {
+    font-size: 100%;
+}
+
+
+/**** widgets font size *****/
+.widgets {
+    font-size: 100%;
+}
+
+
+/**** footer font size *****/
+#site-footer {
+    font-size: 90%;}
