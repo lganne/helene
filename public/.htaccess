@@ -1,0 +1,21 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+    RewriteBase /
+
+    #active la reecriture d'URL, vous devez avoir le mod_rewrite active sur votre serveur WAMP, MAMP, LAMP
+   RewriteEngine On
+
+    # Redirect Trailing Slashes...
+   RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    #une constante indiquant que l'on est en dev...
+   SetEnv APPLICATION_ENV dev
+
+    # par de redirection sur les dossiers et fichiers du dossier public, les condtions marchent comme suit:
+    # si ce n'est pas un dossier et pas un fichier alors on redirige la requête HTTP sur le fichier index.php
+#   RewriteCond %{REQUEST_FILENAME} !-d
+  # RewriteCond %{REQUEST_FILENAME} !-f
+ #  RewriteRule ^ index.php [L]
+</IfModule>
