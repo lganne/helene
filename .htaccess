@@ -1,0 +1,26 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /helene.local/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /helene.local/boostraap.php [L]
+</IfModule>
+
+#SetEnv APPLICATION_ENV development
+#RewriteEngine on
+
+#RewriteCond %{REQUEST_FILENAME} -s [OR]
+#RewriteCond %{REQUEST_FILENAME} -l [OR]
+#RewriteCond %{REQUEST_FILENAME} -d
+#RewriteRule ^.*$ - [NC,L]
+#RewriteRule ^.*$ /public/index.php [NC,L]
+#Allow From All
+
+#RewriteCond %{THE_REQUEST} ^.*/public/index.php
+#RewriteRule ^(.*)index.php$ http://localhost:82/helene.local/public/$1 [R=301,L]
+
+#RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /?(.*)/index\.php
+#RewriteRule ^ /%1 [L,R=301]
+
+#RewriteRule ^(.*)$ /index.php/$1 [L] 
